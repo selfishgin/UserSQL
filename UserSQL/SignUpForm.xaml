@@ -1,0 +1,32 @@
+﻿<Page x:Class="UserSQL.SignUpForm"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:UserSQL"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="SignUpForm">
+
+    <Grid>
+        <TextBox x:Name="txtName" Width="200" Height="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20,0,0" />
+        <Label x:Name="Name" Width="100" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="190,20,0,0" Content="Name"/>
+        
+        <TextBox x:Name="txtSurname" Width="200" Height="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,60,0,0" />
+        <Label x:Name="Surname" Width="100" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="190,60,0,0" Content="Surname"/>
+        
+        <TextBox x:Name="txtAge" Width="200" Height="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,100,0,0" />
+        <Label x:Name="Age" Width="100" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="190,100,0,0" Content="Age"/>
+        
+        <TextBox x:Name="txtLogin" Width="200" Height="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,140,0,0" />
+        <Label x:Name="Login" Width="100" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="190,140,0,0" Content="Login"/>
+        
+        <PasswordBox x:Name="txtPassword" Width="200" Height="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,180,0,0" />
+        <Label x:Name="Password" Width="100" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="190,180,0,0" Content="Password"/>
+        
+        <PasswordBox x:Name="txtConfirmPassword" Width="200" Height="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,220,0,0" />
+        <Label x:Name="ConfirmPassword" Width="110" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="190,220,0,0" Content="Confirm Password" />
+        
+        <Button x:Name="btnSignUp" Content="Sign Up" Width="100" Height="30" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,260,0,0" Click="btnSignUp_Click"/>
+    </Grid>
+</Page>
